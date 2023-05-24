@@ -34,8 +34,8 @@ function encriptar () {
     }
     }
 function desencriptar (){
+  let texto = areaT.value;
   if(/^[a-z-ñ\s]+$/.test(texto)){
-        let texto = areaT.value;
         texto = texto.replace(/ai/g, 'a');
         texto = texto.replace(/enter/g, 'e');
         texto = texto.replace(/imes/g, 'i');
