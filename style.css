@@ -220,7 +220,7 @@ html{
     margin: 2.4rem 0 0 1.6rem;
 }
 .texto{
-    margin-inline: 1.6rem;
+    margin-inline: auto;
 }
 .botones{
     display: flex;
