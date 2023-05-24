@@ -220,7 +220,7 @@ html{
     margin: 2.4rem 0 0 1.6rem;
 }
 .texto{
-    margin-inline: auto;
+    margin-inline: 1.6rem;
 }
 .botones{
     display: flex;
@@ -228,6 +228,7 @@ html{
 }
 .botonesP{
     display: block;
+    width: 100%;
 }
 #botonE{
     float: none;
